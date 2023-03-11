@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem;
+    height: 60px;
+  }
+  
+  .navbar-logo img {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li:not(:last-child) {
+    margin-right: 2rem;
+  }
+  
+  .navbar-menu a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-menu a:hover {
+    color: #000;
+  }
+  
+  .navbar-donate {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .navbar-button:hover {
+    background-color: #0b5ed7;
+  }
+  
