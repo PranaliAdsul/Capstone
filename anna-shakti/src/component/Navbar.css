@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 0.5rem 1rem;
+    background-image: url('../../public/assets/bgw.jpg');
+    background-size: cover;    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0.5rem;
     height: 60px;
   }
   
   .navbar-logo img {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 75px;
   }
   
   .navbar-menu {

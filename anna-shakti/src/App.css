@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #6086b3; /* Replace with your desired background color */
+  background-image: url('../public/assets/bgw.jpg'); /* Replace with your desired background image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+}

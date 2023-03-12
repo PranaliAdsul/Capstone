@@ -6,6 +6,7 @@ import AboutPage from './component/AboutPage';
 import WhatWeDoPage from './component/WhatWeDoPage';
 import ContactUsPage from './component/ContactUsPage';
 import DonatePage from './component/DonatePage';
+import './App.css';
 
 function App() {
   return (

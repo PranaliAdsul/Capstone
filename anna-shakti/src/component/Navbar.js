@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="logo.png" alt="Logo" />
+      <img src={process.env.PUBLIC_URL + '/assets/logo.png'} alt="Logo" />
       </div>
       <ul className="navbar-menu">
         <li className="navbar-item"><Link to="/">Home</Link></li>
