@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../../public/assets/bgw.jpg');
+    background-image: url('../../public/assets/Bgw.png');
     background-size: cover;    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 1rem 0.5rem;
     height: 60px;
