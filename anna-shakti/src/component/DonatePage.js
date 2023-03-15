@@ -11,6 +11,7 @@ function DonatePage() {
       <h1>Donate</h1>
       <p>Please fill out the form below to make a donation.</p>
       <DonationForm onSubmit={handleDonationSubmit} />
+      <p>Thank you</p>
     </div>
   );
 }
